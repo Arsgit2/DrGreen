@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+venv.bak/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Data and uploads
+data/
+uploads/
+
+# Model weights and large files
+model/*.pth
+model/*.pt
+model/*.ckpt
+
+# Sensitive files
+kaggle.json
